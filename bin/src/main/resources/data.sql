@@ -1,0 +1,12 @@
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (1, 1, 2, 1000);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (2, 1, 5, 500);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (3, 1,10, 200);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (4, 1, 20, 100);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (5, 1, 30, 50);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (6, 1, 40,  20);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (7, 2, 50, 10);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (8, 2, 100, 5);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (9, 2, 200, 2);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (10, 2, 300, 1);
+insert into denominacion (id, tipo, cantidad, denominacion) VALUES (11, 2, 100, 0.50);
+insert into movimiento (id, tipo, cantidad) VALUES (1, 'E', 12550);
