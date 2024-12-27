@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "f416d4a9-794b-48c7-b1d8-b53e51c46392",
+		"name": "Cajero",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29901619"
+	},
+	"item": [
+		{
+			"name": "getListDenominacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9091/cajero/v1/admin/listaDenominacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"cajero",
+						"v1",
+						"admin",
+						"listaDenominacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retiroEfectivo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cantidad\" : 975.50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9091/cajero/v1/admin/retiroEfectivo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9091",
+					"path": [
+						"cajero",
+						"v1",
+						"admin",
+						"retiroEfectivo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
