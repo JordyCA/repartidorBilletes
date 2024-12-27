@@ -13,7 +13,7 @@ La finalidad es poder realizar un retiro de efectivo y que el cajero determine e
 | Ruta | Tipo | Descripción |
 | --- | --- | --- |
 | http://localhost:9091/cajero/v1/admin/listaDenominacion | Get | Muestra todo el efectivo que tiene el cajero |
-| http://localhost:9091/cajero/v1/admin/retiroEfectivo | Post | Realiaza el retiro del cajero |
+| http://localhost:9091/cajero/v1/admin/retiroEfectivo | Post | Realiza el retiro del cajero |
 
 <br>
 
